@@ -46,3 +46,4 @@ puts("Connection accepted");
 message = asctime(timeinfo);
 write(new_socket , message , strlen(message));
 return 0;
+}
